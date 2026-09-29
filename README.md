@@ -1,16 +1,19 @@
-# React + Vite
+# F.W.M.R.S - Food Waste Management & Reduction System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An intelligent web platform for tracking, analyzing, and reducing commercial food waste across kitchen prep, dining lines, and storage facilities.
 
-Currently, two official plugins are available:
+## Features
+- **Dashboard & Analytics**: Real-time summary of waste quantities, costs, and breakdown by meal type and department.
+- **Log Waste Entries**: Easy tracking of dish names, category, weight, cost, prevention measures, and staff logs.
+- **Interactive Reports & Export**: PDF / CSV reporting for operational optimization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- **Frontend**: React 19, Vite, Recharts, Lucide Icons, Vanilla CSS
+- **Backend**: Node.js, Express, MySQL (with in-memory fallback)
 
-## React Compiler
+## Getting Started
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
